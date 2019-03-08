@@ -9,15 +9,16 @@
 
     <ImageView
         android:id="@+id/custom_toast_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:contentDescription="LearnByExample"
-        android:src="@mipmap/pic1"/>
+        android:src="@drawable/lb2" />
 
     <TextView
         android:id="@+id/custom_toast_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#3e2723"
         android:contentDescription="To"
         android:text="Examples are the best way to learn." />
 </LinearLayout>
